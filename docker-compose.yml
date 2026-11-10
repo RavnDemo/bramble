@@ -1,0 +1,9 @@
+# Bramble Market, one command: docker compose up  →  http://localhost:3000
+services:
+  bramble:
+    image: ghcr.io/ravndemo/bramble:latest
+    build: .
+    environment:
+      NODE_ENV: bramble
+    ports:
+      - "3000:3000"

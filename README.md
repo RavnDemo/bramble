@@ -1,3 +1,16 @@
+# Bramble Market
+
+> **Demo target for Ravn.** Bramble Market is [OWASP Juice Shop](https://github.com/juice-shop/juice-shop), rebranded
+> through its own customization config ([`config/bramble.yml`](config/bramble.yml)). It is intentionally vulnerable.
+> Its bug bounty program is a HackerOne **sandbox**, worked by the simulator in
+> [RavnDemo/program-sim](https://github.com/RavnDemo/program-sim). Nothing here is a real shop or a real program.
+>
+> Run it: `docker compose up` (or `NODE_ENV=bramble npm start`), then open http://localhost:3000.
+>
+> Everything below is upstream's README, unchanged. Licence: MIT, as upstream.
+
+---
+
 # ![Juice Shop Logo](https://raw.githubusercontent.com/juice-shop/juice-shop/master/frontend/src/assets/public/images/JuiceShop_Logo_100px.png) OWASP Juice Shop
 
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/#sec-flagships)
